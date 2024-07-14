@@ -44,17 +44,34 @@ After logging into Azure I created a Resource Group called "Grp" and created two
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="80%" alt="Screenshot 2024-07-11 at 10 46 05 AM" src="https://github.com/user-attachments/assets/73de2d32-a0f0-4b6a-aa66-adf81dd7d5b4">
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+After the making sure the Virtual Machines were up and running, I opened Microsft Remote Helpdesk and logged into VM-1 with the Windows OS. Then once available I opened the command-line and checked the user and machine I was on.
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="80%" alt="Screenshot 2024-07-11 at 10 58 03 AM" src="https://github.com/user-attachments/assets/0611cca2-927e-46b6-b5f4-2f98c62eeb6d">
+<img width="80%" alt="Screenshot 2024-07-11 at 11 01 18 AM" src="https://github.com/user-attachments/assets/a83eccf5-a27a-43c2-aea2-301958cd88ad">
+<img width="80%" alt="Screenshot 2024-07-11 at 11 14 47 AM" src="https://github.com/user-attachments/assets/d1a21ff4-3a01-4565-981c-57663d88098e">
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Then I downloaded Wireshark and proceeded to run commands that executed certain network protocols so I could observe them.
 </p>
 <br />
+
+<p>
+<img width="80%" alt="Screenshot 2024-07-11 at 11 13 12 AM" src="https://github.com/user-attachments/assets/f4a3a2f3-7548-4b9e-93d3-29358912b7e4">
+</p>
+<p>
+Once I completed running the previous commands I connected to the other Virtual Machine using the ssh command. Then I checked the user and machine name to verify.
+</p>
+<br>
+
+<p>
+<img width="80%" alt="Screenshot 2024-07-11 at 11 53 27 AM" src="https://github.com/user-attachments/assets/57d1ed8e-ef52-46fc-ab5f-5436e72978ed">
+</p>
+<p>
+To finish up I logged back into Azure and went to Resource Groups. From there I deleted both the Virtual Machines, the related components, and the resouce group entirely.
+</p>
